@@ -519,6 +519,7 @@ const CustomBookingEnginePage: React.FC = () => {
       // console.log("reservationnnnnnnnn data", data);
 
       setContactFormOpen(false);
+      
       setMainContactFormOpen(false);
       navigate(`/successfulBooking/${bookingId}`);
     } catch (error) {
