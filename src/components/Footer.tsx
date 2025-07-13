@@ -124,11 +124,11 @@ export default function Footer() {
           <div className="space-y-4">
           <Link to="/" className="flex gap-2">
                <img src={logo} alt="Saavi Hotels Logo" className="h-10 w-10" />
-               <span className="text-xl font-semibold text-white">Saavi Hotels</span>
+               <span className="text-xl font-semibold text-white">SHPRL Hotels</span>
              </Link>
             {/* <h3 className="text-xl font-semibold">About Us</h3> */}
             <p className="text-gray-400 leading-relaxed">
-            Saavi Hotels and Resorts Private Limited is an emerging hospitality brand in India, founded by Deepak Dangi, a seasoned professional with over 13 years of experience in five-star hospitality. Saavi Hotels is committed to redefining corporate hospitality by offering world-class accommodations, personalized services, and modern amenities designed to meet the needs of business travelers and professionals.</p>
+            SHPRL Hotels and Resorts Private Limited is an emerging hospitality brand in India, founded by Deepak Dangi, a seasoned professional with over 13 years of experience in five-star hospitality. SHPRL Hotels is committed to redefining corporate hospitality by offering world-class accommodations, personalized services, and modern amenities designed to meet the needs of business travelers and professionals.</p>
             <Link to='/about#company'>Read more...</Link>
           </div>
 
@@ -197,8 +197,8 @@ export default function Footer() {
 
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-[#8B2B06]" />
-                <a href="sales@saavigroups.com" className="text-gray-400 hover:text-[#8B2B06] transition-colors">
-                sales@saavigroups.com
+                <a href="sales@shprlgroups.com" className="text-gray-400 hover:text-[#8B2B06] transition-colors">
+                sales@shprlgroups.com
                 </a>
               </li>
             </ul>
@@ -209,7 +209,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400">
-              © {currentYear} All rights reserved to Saavi Hotels and Resorts Private Limited.
+              © {currentYear}       All rights reserved to SHPRL Hotels and Resorts Private Limited.
             </p>
             <div className="flex space-x-6">
             <div className="flex items-center gap-4 sm:gap-8">
@@ -222,7 +222,7 @@ export default function Footer() {
         <i className="fab fa-facebook-f text-base"></i>
       </a>
       <a
-        href="https://www.instagram.com/saavihotels?igsh=and4OXdkMTJoNWcx"
+        href="https://www.instagram.com/SHPRLhotels?igsh=and4OXdkMTJoNWcx"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:text-primary transition-colors text-white"
@@ -238,7 +238,7 @@ export default function Footer() {
         <i className="fab fa-linkedin-in text-base"></i>
       </a>
       <a
-        href="https://www.youtube.com/@SaaviHotelsAndResorts"
+        href="https://www.youtube.com/@SHPRLHotelsAndResorts"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:text-primary transition-colors text-white"

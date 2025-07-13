@@ -76,8 +76,8 @@ export default function careers() {
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
-          <p className="text-base mb-5">At Saavi Hotels, we endeavor to provide a formidable platform for professionals who will be our change agents – catalysts who are torchbearers of our fortitude to excel and redefine the limits of hospitality to make our guests happy. Our hiring team focuses on the recruitment of talented professionals in the industry. If you are experienced in the pursuit of excellence in hospitality, and looking for challenging opportunities to actualize your fire within, look no further. A career at Saavi Hotels offers just that and a lot more.</p>
-          <p className="text-base">We do not charge any fee at any stage of the recruitment process and have not authorized agencies/partners to collect any fee for recruitment. If you encounter any suspicious mail, advertisements, or persons who offer jobs at Saavi Hotels, please do let us know by contacting us on</p>
+          <p className="text-base mb-5">At SHRPL Hotels, we endeavor to provide a formidable platform for professionals who will be our change agents – catalysts who are torchbearers of our fortitude to excel and redefine the limits of hospitality to make our guests happy. Our hiring team focuses on the recruitment of talented professionals in the industry. If you are experienced in the pursuit of excellence in hospitality, and looking for challenging opportunities to actualize your fire within, look no further. A career at SHRPL Hotels offers just that and a lot more.</p>
+          <p className="text-base">We do not charge any fee at any stage of the recruitment process and have not authorized agencies/partners to collect any fee for recruitment. If you encounter any suspicious mail, advertisements, or persons who offer jobs at SHRPL Hotels, please do let us know by contacting us on</p>
           <p className="text-base mb-5">
             <a href="mailto:hr@saavigroups.com" className="text-blue-600 hover:text-blue-800 underline">
               hr@saavigroups.com

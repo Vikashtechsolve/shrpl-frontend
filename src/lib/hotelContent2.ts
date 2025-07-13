@@ -4,7 +4,7 @@ import { Hotel } from '../types';
 export const hotels: Hotel[] = [
   {
     id: 'golf-course-luxury',
-    name: 'Saavi Hotel Golf Course',
+    name: 'SHRPL Hotel Golf Course',
     location: 'Gurugram, Haryana, India',
     price: 2200,
     locationUrl : "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d448988.2271440563!2d77.095287!3d28.45784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19a1d1c95a9b%3A0x223feb2fe2dcf60b!2sHotel%20Gracia%20Golf%20by%20SAAVI%20Hotel!5e0!3m2!1sen!2sus!4v1740143587547!5m2!1sen!2sus",
@@ -12,15 +12,15 @@ export const hotels: Hotel[] = [
     bookingEngine : "http://bookingengine.maximojo.com?hid=IN-7fc00e1a-24e9-4e40-9e88-b3f0f8a6d8ac",
     description: `
 
-Welcome to Saavi Hotel Golf Course
+Welcome to SHRPL Hotel Golf Course
 
-Located in Gurgaon, just 3.8 km from MG Road, Saavi Hotel Golf Course offers a tranquil retreat with a range of amenities to ensure a comfortable stay. Situated amidst lush greenery, our hotel provides a serene ambiance for relaxation and rejuvenation.
+Located in Gurgaon, just 3.8 km from MG Road, SHRPL Hotel Golf Course offers a tranquil retreat with a range of amenities to ensure a comfortable stay. Situated amidst lush greenery, our hotel provides a serene ambiance for relaxation and rejuvenation.
 
 
   Chiya  boutique hotel is best for small gathering events – Haldi, wedding , Engagement , birthday parties etc. Couples particularly like the location because of our quality rooms, private dining area and in- room dining services. This boutique hotel also have banquet hall that is best for Weddings, Haldi, Ring Ceremony,  Engagement , birthday parties etc. Has a Beautiful Banquet with state of the art enmities. We speak your language!
 
 Guest Access:
-Experience the vibrant surroundings of Saavi Hotel Golf Course, where convenience and leisure converge to offer a memorable stay.
+Experience the vibrant surroundings of SHRPL Hotel Golf Course, where convenience and leisure converge to offer a memorable stay.
 
 Top Attractions Nearby:
 - Qutub Minar (11 km)
@@ -86,7 +86,7 @@ Location:
   },
   {
     id: 'sector-46',
-    name: 'Saavi Hotel Sector 46',
+    name: 'SHRPL Hotel Sector 46',
     location: 'Gurugram, Haryana, India',
     price: 2400,
     locationUrl : "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d449108.1421838111!2d77.05888!3d28.429594!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1907e786f627%3A0x3a018b67571a0ec7!2sSaavi%20Hotel%20Sector%2046!5e0!3m2!1sen!2sus!4v1740144098469!5m2!1sen!2sus",
@@ -95,15 +95,15 @@ Location:
     description: `
 
 
-    Welcome to Saavi Hotel Sector 46
+    Welcome to SHRPL Hotel Sector 46
 
-Discover comfort and convenience at Saavi Hotel Sector 46, nestled in Gurgaon just 6.2 km from WorldMark Gurgaon. Our 3-star hotel offers a tranquil retreat with modern amenities and attentive service for a memorable stay.
+Discover comfort and convenience at SHRPL Hotel Sector 46, nestled in Gurgaon just 6.2 km from WorldMark Gurgaon. Our 3-star hotel offers a tranquil retreat with modern amenities and attentive service for a memorable stay.
 
 This boutique hotel is best for small gathering events – Haldi, wedding , Engagement , birthday parties etc. Couples particularly like the location because of our quality rooms, private dining area and in- room dining services. This boutique hotel also have banquet hall that is best for Weddings, Haldi, Ring Ceremony,  Engagement , birthday parties etc. Has a Beautiful Banquet with state of the art enmities. We speak your language!
 
 Top Attractions and Guest Access
 
--Experience the vibrant surroundings of Saavi Hotel Sector – 46, where convenience and leisure converge to offer a memorable stay.
+-Experience the vibrant surroundings of SHRPL Hotel Sector – 46, where convenience and leisure converge to offer a memorable stay.
 Qutub Minar (16 km away)
 Lake Johad Village Pond (6 km away)
 
@@ -162,7 +162,7 @@ Hindon Airport (41 km)
 
 
 Rooms
-Each room at Saavi Hotel Sector 46 offers comfort and convenience.
+Each room at SHRPL Hotel Sector 46 offers comfort and convenience.
 
 Guests can enjoy amenities such as a wardrobe for storage.
 Private bathrooms in all units are equipped with a shower and complimentary toiletries.
@@ -193,7 +193,7 @@ Bed linens and towels are provided in every room for guest comfort.
   },
   {
     id: 'sector-45',
-    name: 'Saavi Hotel Sector 45',
+    name: 'SHRPL Hotel Sector 45',
     location: 'Gurugram, Haryana, India',
     price: 2500,
     rating: 4.8,
@@ -201,15 +201,15 @@ Bed linens and towels are provided in every room for guest comfort.
     bookingEngine :"http://bookingengine.maximojo.com?hid=IN-c2ecb7a0-0dd5-4ce2-a9b7-2c2afeb8754b",
     description: `
 
-    Welcome to Saavi Hotel Sector 45
+    Welcome to SHRPL Hotel Sector 45
 
-Discover comfort and affordability at Saavi Hotel Sector 45, conveniently located in Gurgaon just 7.4 km from MG Road and 20 km from Qutub Minar. Our 2-star accommodation offers a cozy retreat with essential amenities for a pleasant stay.
+Discover comfort and affordability at SHRPL Hotel Sector 45, conveniently located in Gurgaon just 7.4 km from MG Road and 20 km from Qutub Minar. Our 2-star accommodation offers a cozy retreat with essential amenities for a pleasant stay.
 
     This boutique hotel is best for small gathering events – Haldi, wedding , Engagement , birthday parties etc. Couples particularly like the location because of our quality rooms, private dining area and in- room dining services. This boutique hotel also have banquet hall that is best for Weddings, Haldi, Ring Ceremony,  Engagement , birthday parties etc. Has a Beautiful Banquet with state of the art enmities. We speak your language!
 
 Top Attractions and Guest Access
 
-Experience the vibrant surroundings of Saavi Hotel Sector 45, where convenience and leisure converge to offer a memorable stay.
+Experience the vibrant surroundings of SHRPL Hotel Sector 45, where convenience and leisure converge to offer a memorable stay.
 
 Embark on journeys to renowned landmarks and natural beauty spots:
 Qutub Minar (20 km away)
@@ -248,7 +248,7 @@ Delhi International Airport (20 km)
 
 Rooms:
 
-Each room at Saavi Hotel Sector 45 offers comfort and convenience.
+Each room at SHRPL Hotel Sector 45 offers comfort and convenience.
 Guests can enjoy amenities such as a wardrobe for storage.
 Private bathrooms in all units are equipped with a shower and complimentary toiletries.
 All rooms feature a flat-screen TV and air conditioning for entertainment and comfort.
@@ -278,7 +278,7 @@ Location:
   },
   {
     id: 'sector-10',
-    name: 'Saavi Hotel Sector 10',
+    name: 'SHRPL Hotel Sector 10',
     location: 'Gurugram, Haryana, India',
     price: 2200,
     rating: 4.6,
@@ -310,7 +310,7 @@ Location:
     },
   {
     id: 'shimla-mountain-resort',
-    name: 'Hassan Valley By Saavi',
+    name: 'Hassan Valley By SHRPL',
     location: 'Shimla, Himachal Pradesh, India',
     price: 2400,
     locationUrl : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3416.8019628769252!2d77.2445687!3d31.087435199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390583d93e9b59ad%3A0x5a63743cfc19b92d!2sHassan%20Valley%20Retreat-Best%20Valley%20View%20Hotel%20in%20Shimla!5e0!3m2!1sen!2sin!4v1740146079796!5m2!1sen!2sin",
@@ -430,7 +430,7 @@ Our Retreat provides grand offer for tourism activities in an area of about 75 B
 //   },
   {
     id: 'saavi-jibhi',
-    name: 'Saavi Hotel Jibhi',
+    name: 'SHRPL Hotel Jibhi',
     location: 'Jibhi, Himachal Pradesh, India',
     price: 2400,
     rating: 4.9,
