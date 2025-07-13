@@ -1,10 +1,11 @@
 import { motion, useInView } from "framer-motion";
 import  { useRef } from "react";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const cities = [
   {
-    cityName: "New Delhi",
+    cityName: "New Delhi", 
     cityImageUrl:
       "https://q-xx.bstatic.com/xdata/images/city/170x136/684765.jpg?k=3f7d20034c13ac7686520ac1ccf1621337a1e59860abfd9cbd96f8d66b4fc138&o=",
     numProperties: "3,969",
@@ -115,7 +116,7 @@ const AllCities = () => {
           className="flex w-full no-scrollbar overflow-x-auto scrollbar-hide space-x-4 scroll-smooth"
         >
           {cities.map((val, index) => (
-            <div key={index}>
+            <Link to={`/cityHotels/${val.cityName}`} key={index}>
               <div
                 className="min-w-[200px] rounded-lg h-[150px] bg-gray-300 flex items-center justify-center"
                 style={{
@@ -126,7 +127,7 @@ const AllCities = () => {
               />
               <h5 className="text-black mt-2">{val.cityName}</h5>
               <p className="text-gray-500">{val.numProperties} properties</p>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
