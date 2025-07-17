@@ -691,7 +691,7 @@ export default function Home() {
         >
           <div className="w-full px-0">
             <h2 className="text-3xl font-serif text-[#8B2B06] z-10 font-bold text-center mb-12 animate-slide-in-top">
-              Experience SHRPL Hospitality
+              Experience SHRPL Premium Hostels
             </h2>
             <div className="w-full">
               <HotelCarousel />

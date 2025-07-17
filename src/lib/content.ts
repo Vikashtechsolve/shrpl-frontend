@@ -26,7 +26,7 @@ export const content = {
       address: "545,Sector 43,Golf course Road,",
       city: "Gurugram, Haryana 122003",
       phone: "9999575044, 7290006773",
-      email: "sales@saavigroups.com"
+      email: "hello@shrpl.com"
     }
   },
   hotels: [

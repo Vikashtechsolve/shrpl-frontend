@@ -55,7 +55,7 @@ export default function Navbar() {
             <span>9999575044, 7290006773</span>
             <span className="flex items-center gap-1">
               <FaEnvelope className="text-base" />
-              <span>sales@saavigroups.com</span>
+              <span>sales@shrpl.com</span>
             </span>
           </p>
           <div className="items-center justify-between flex flex-col sm:flex-row gap-4">
@@ -111,9 +111,9 @@ export default function Navbar() {
                 className="w-[130px] h-30 object-cover rounded-md"
               />
             </div>
-            <span className="text-sm font-bold text-gray-700 tracking-wide uppercase font-sans">
+            {/* <span className="text-sm font-bold text-gray-700 tracking-wide uppercase font-sans">
               A Comfortable stay
-            </span>
+            </span> */}
           </Link>
         </div>
 
@@ -127,7 +127,7 @@ export default function Navbar() {
           </Link>
 
           {/* Our Hotels Dropdown */}
-          <DropdownMenu
+          {/* <DropdownMenu
             open={openDropdown === "hotels"}
             onOpenChange={() => handleDropdownClick("hotels")}
           >
@@ -158,7 +158,7 @@ export default function Navbar() {
                 </DropdownMenuItem>
               ))}
             </DropdownMenuContent>
-          </DropdownMenu>
+          </DropdownMenu> */}
 
           {/* About Us Dropdown */}
           <DropdownMenu
@@ -174,7 +174,7 @@ export default function Navbar() {
                 { name: "Vision & Mission", href: "/about#vision-mission" },
                 { name: "Core Values", href: "/about#values" },
                 { name: "Our Team", href: "/about#team" },
-                { name: "Why Saavi?", href: "/about#why-saavi" },
+                { name: "Why Shrpl?", href: "/about#why-saavi" },
               ].map((item) => (
                 <DropdownMenuItem
                   key={item.name}
@@ -193,12 +193,12 @@ export default function Navbar() {
           </DropdownMenu>
 
           {/* Regular Navigation Links */}
-          <Link
+          {/* <Link
             to="/gallery"
             className="text-sm font-semibold text-gray-900 py-2 pl-4 pr-6 hover:text-primary transition-colors"
           >
             Gallery
-          </Link>
+          </Link> */}
 
           <Link
             to="/promotions"

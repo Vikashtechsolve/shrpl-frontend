@@ -31,7 +31,7 @@ import S4 from '../../public/assets/s4.jpg';
 export const hotels: Hotel[] = [
   {
     id: 'golf-course-luxury',
-    name: 'Saavi Hotel Golf Course',
+    name: 'Shrpl Hotel Golf Course',
     location: 'Gurugram, Haryana, India',
     price: 3000,
     locationUrl : "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d448988.2271440563!2d77.095287!3d28.45784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19a1d1c95a9b%3A0x223feb2fe2dcf60b!2sHotel%20Gracia%20Golf%20by%20SAAVI%20Hotel!5e0!3m2!1sen!2sus!4v1740143587547!5m2!1sen!2sus",
@@ -113,7 +113,7 @@ Location : 545, Off, Golf Course Rd, Sector 43, Gurugram, Haryana 122002.
   },
   {
     id: 'sector-46',
-    name: 'Saavi Hotel Sector 46',
+    name: 'Shrpl Hotel Sector 46',
     location: 'Gurugram, Haryana, India',
     price: 3000,
     rating: 4.7,
@@ -219,7 +219,7 @@ Location : 1482, Huda Colony, Sector 46, Gurugram, Haryana 122003.
   },
   {
     id: 'sector-45',
-    name: 'Saavi Hotel Sector 45',
+    name: 'Shrpl Hotel Sector 45',
     location: 'Gurugram, Haryana, India',
     price: 2500,
     rating: 4.8,
@@ -304,7 +304,7 @@ Location : Plot no 2034, block A, Sector 45, near HSBC bank..
   },
   {
     id: 'sector-10',
-    name: 'Saavi Hotel Sector 10',
+    name: 'Shrpl Hotel Sector 10',
     location: 'Gurugram, Haryana, India',
     price: 2600,
     rating: 4.6,
@@ -339,7 +339,7 @@ Location : Plot no 2034, block A, Sector 45, near HSBC bank..
     },
   {
     id: 'shimla-mountain-resort',
-    name: 'Hassan Valley By Saavi',
+    name: 'Hassan Valley By Shrpl',
     location: 'Shimla, Himachal Pradesh, India',
     price: 2400,
     rating: 4.8,
@@ -372,7 +372,7 @@ Location : Village Gawahi,P.O. Maloothi,Patgehar Road,Near,Ekant Vatika rd,Shiml
   },
   {
     id: 'saavi-rishikesh',
-    name: 'Saavi Hotel and Resorts',
+    name: 'Shrpl Hotel and Resorts',
     location: '',
     price: 2300,
     rating: 4.7,
@@ -441,7 +441,7 @@ Location:
   },
   {
     id: 'saavi-jibhi',
-    name: 'Saavi Hotel Jibhi',
+    name: 'Shrpl Hotel Jibhi',
     location: 'Jibhi, Himachal Pradesh, India',
     price: 2400,
     rating: 4.9,
