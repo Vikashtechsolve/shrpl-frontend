@@ -29,75 +29,189 @@ export const content = {
       email: "hello@shrpl.com"
     }
   },
-  hotels: [
-    {
-      id: "680658f731329098d4a76cec",
-      name: "Saavi Hotel Golf course",
-      location: "Gurugram, Haryana, India",
-      city: "Gurugram",
-      image: images.Image_1,
-      description: "Combines luxury accommodations with a serene, well-maintained golf experience.",
-      amenities: ["Scenic Views", "Indoor Dining", "Luxury Suites","24/7 Room Service"],
-      bookingEngine : "http://bookingengine.maximojo.com?hid=IN-7fc00e1a-24e9-4e40-9e88-b3f0f8a6d8ac"
-    },
-    {
-      id: "68065c9f31329098d4a76e0f",
-      name: "Saavi Hotel Sector 46",
-      location: "Gurugram, Haryana, India",
-      city: "Gurugram",
-      image: images.F46,
-      description: " Offers comfortable accommodations with modern amenities in a convenient and vibrant location.",
-      amenities: ["Scenic Views", "Indoor Dining", "Luxury Suites","24/7 Room Service"],
-      bookingEngine : "http://bookingengine.maximojo.com?hid=IN-d94400e8-db75-4daa-9a98-d84564413313"
-    },
-    {
-      id: "6806600631329098d4a76f32",
-      name: "Saavi Hotel Sector 45",
-      location: "Gurugram, Haryana, India",
-      city: "Gurugram",
-      image: images.F45,
-      description: "Provides cozy accommodations with modern facilities, ensuring a convenient and pleasant stay.",
-      amenities: ["Scenic Views", "Indoor Dining", "Luxury Suites","24/7 Room Service"],
-      bookingEngine :"http://bookingengine.maximojo.com?hid=IN-c2ecb7a0-0dd5-4ce2-a9b7-2c2afeb8754b"
-    },
-    {
-      id: "6807220410d6d69b40162bc5",
-      name: "Saavi Hotel Sector 10",
-      location: "Gurugram, Haryana, India",
-      city: "Gurugram",
-      image: images.F10,
-      description: "Offers comfortable and well-equipped accommodations for a relaxing and convenient stay.",
-      amenities: ["Scenic Views", "Indoor Dining", "Luxury Suites","24/7 Room Service"],
-      bookingEngine : "http://bookingengine.maximojo.com?hid=IN-f59a1bd3-916f-4a62-9092-9624599ac2c6"
-    },
-    {
-      id: '680811ca3f6988090b2d81ce',
-      name: "Hassan Valley By Saavi",
-      location: "Shimla, Himachal Pradesh, India",
-      city: "Shimla",
-      image: images.Image_5,
-      description: "A serene getaway nestled amidst picturesque landscapes, offering modern amenities and a tranquil escape in the heart of nature.",
-      amenities: ["Eco-Cottages", "Trekking Assistance", "Bonfire Nights", "Organic Meals"]
-    },
-    // {
-    //   id: "saavi-rishikesh",
-    //   name: "Saavi Hotel and Resorts",
-    //   location: "Rishikesh,Uttrakhand, India",
-    //   city: "Rishikesh",
-    //   image: images.Image_6,
-    //   description: " Offers a serene retreat with modern amenities, surrounded by the tranquil beauty of the Himalayan foothills and the Ganges River.",
-    //   amenities: ["Wellness Center", "Luxury Rooms", "Multi-Cuisine Dining", "Bonfire"]
-    // },
-    {
-      id: "680812663f6988090b2d81cf",
-      name: "Saavi Hotel Jibhi",
-      location: "Jibhi,Himachal Pradesh, India",
-      city: "Jibhi",
-      image: images.Fjb,
-      description: "A charming retreat offering cozy accommodations, modern amenities, and stunning views of the lush Himalayan landscape.",
-      amenities: ["Banquet Halls", "Bonfire", "Outdoor Pool"]
-    }
-  ],
+   hotels: [
+  {
+    id: "1",
+    name: "The Marine Pearl",
+    location: "Mumbai, Maharashtra, India",
+    city: "Mumbai",
+    image: "https://via.placeholder.com/300x200?text=Marine+Pearl+Mumbai",
+    description: "Luxury seafront hotel with breathtaking views of the Arabian Sea.",
+    amenities: ["Sea View", "Rooftop Bar", "Fitness Center", "Spa"]
+  },
+  {
+    id: "2",
+    name: "Rajwada Heritage Palace",
+    location: "Jaipur, Rajasthan, India",
+    city: "Jaipur",
+    image: "https://via.placeholder.com/300x200?text=Rajwada+Palace+Jaipur",
+    description: "Experience royal comfort in this heritage palace turned boutique hotel.",
+    amenities: ["Heritage Rooms", "Cultural Shows", "Fine Dining", "Guided Tours"]
+  },
+  {
+    id: "3",
+    name: "Himalayan Retreat Resort",
+    location: "Manali, Himachal Pradesh, India",
+    city: "Manali",
+    image: "https://via.placeholder.com/300x200?text=Himalayan+Retreat+Manali",
+    description: "Tranquil mountain retreat with breathtaking valley views and cozy cabins.",
+    amenities: ["Snow Activities", "Spa", "Mountain View", "Bonfire"]
+  },
+  {
+    id: "4",
+    name: "TechCity Grand",
+    location: "Bangalore, Karnataka, India",
+    city: "Bangalore",
+    image: "https://via.placeholder.com/300x200?text=TechCity+Grand+Bangalore",
+    description: "Modern business hotel located in the heart of India’s Silicon Valley.",
+    amenities: ["High-Speed WiFi", "Conference Rooms", "Multi-Cuisine", "Airport Shuttle"]
+  },
+  {
+    id: "5",
+    name: "Ganga River Retreat",
+    location: "Rishikesh, Uttarakhand, India",
+    city: "Rishikesh",
+    image: "https://via.placeholder.com/300x200?text=Ganga+Retreat+Rishikesh",
+    description: "Spiritual riverside stay with yoga, meditation, and river views.",
+    amenities: ["Yoga", "River View", "Organic Café", "Meditation Hall"]
+  },
+  {
+    id: "6",
+    name: "SunBay Beach Resort",
+    location: "Goa, India",
+    city: "Goa",
+    image: "https://via.placeholder.com/300x200?text=SunBay+Beach+Goa",
+    description: "Tropical resort with private beach access and vibrant nightlife.",
+    amenities: ["Private Beach", "Poolside Bar", "Night Club", "Water Sports"]
+  },
+  {
+    id: "7",
+    name: "Snowpine Chalet",
+    location: "Gulmarg, Jammu & Kashmir, India",
+    city: "Gulmarg",
+    image: "https://via.placeholder.com/300x200?text=Snowpine+Gulmarg",
+    description: "Ski-in/ski-out hotel with views of snow-capped peaks and pine forests.",
+    amenities: ["Ski Rentals", "Fireplace Lounge", "Mountain Café", "Snow Trek"]
+  },
+  {
+    id: "8",
+    name: "Green Valley Eco Resort",
+    location: "Wayanad, Kerala, India",
+    city: "Wayanad",
+    image: "https://via.placeholder.com/300x200?text=Green+Valley+Wayanad",
+    description: "Sustainable eco-resort in Kerala’s lush green landscapes.",
+    amenities: ["Treehouses", "Nature Walks", "Farm Meals", "Bird Watching"]
+  },
+  {
+    id: "9",
+    name: "The Marina Grand",
+    location: "Chennai, Tamil Nadu, India",
+    city: "Chennai",
+    image: "https://via.placeholder.com/300x200?text=Marina+Grand+Chennai",
+    description: "Elegant coastal hotel offering comfort, cuisine, and class.",
+    amenities: ["Sea View Rooms", "Spa", "Buffet Breakfast", "Airport Pickup"]
+  },
+  {
+    id: "10",
+    name: "Lakeview Palace",
+    location: "Udaipur, Rajasthan, India",
+    city: "Udaipur",
+    image: "https://via.placeholder.com/300x200?text=Lakeview+Palace+Udaipur",
+    description: "Lakeside heritage hotel with views of City Palace and Pichola Lake.",
+    amenities: ["Lake Cruises", "Cultural Evenings", "Royal Dining", "Terrace Café"]
+  },
+  {
+    id: "11",
+    name: "CityScape Inn",
+    location: "Ahmedabad, Gujarat, India",
+    city: "Ahmedabad",
+    image: "https://via.placeholder.com/300x200?text=CityScape+Inn+Ahmedabad",
+    description: "Centrally located hotel ideal for both business and leisure travelers.",
+    amenities: ["Fast Check-in", "Fitness Room", "Multi-Cuisine Restaurant"]
+  },
+  {
+    id: "12",
+    name: "The Lotus Ganges",
+    location: "Haridwar, Uttarakhand, India",
+    city: "Haridwar",
+    image: "https://via.placeholder.com/300x200?text=Lotus+Ganges+Haridwar",
+    description: "Peaceful spiritual retreat just a walk away from Har Ki Pauri.",
+    amenities: ["Prayer Hall", "Riverside Café", "Holy Dip Access", "Peace Garden"]
+  },
+  {
+    id: "13",
+    name: "Royal Orchid Heights",
+    location: "Hyderabad, Telangana, India",
+    city: "Hyderabad",
+    image: "https://via.placeholder.com/300x200?text=Royal+Orchid+Hyderabad",
+    description: "Upscale hotel combining Nawabi luxury with modern elegance.",
+    amenities: ["Pool", "Bar Lounge", "Fitness Center", "Banquet Hall"]
+  },
+  {
+    id: "14",
+    name: "The Dunes Resort",
+    location: "Jaisalmer, Rajasthan, India",
+    city: "Jaisalmer",
+    image: "https://via.placeholder.com/300x200?text=Dunes+Resort+Jaisalmer",
+    description: "Desert resort offering camel rides, folk music, and dune dining.",
+    amenities: ["Camel Safari", "Folk Dance", "Tent Stay", "Cultural Nights"]
+  },
+  {
+    id: "15",
+    name: "Coral Coast Inn",
+    location: "Kochi, Kerala, India",
+    city: "Kochi",
+    image: "https://via.placeholder.com/300x200?text=Coral+Coast+Kochi",
+    description: "Coastal hotel with Portuguese charm and sea-inspired décor.",
+    amenities: ["Backwater Cruise", "Seafood Restaurant", "Terrace Lounge"]
+  },
+  {
+    id: "16",
+    name: "Skyline Vista",
+    location: "Pune, Maharashtra, India",
+    city: "Pune",
+    image: "https://via.placeholder.com/300x200?text=Skyline+Vista+Pune",
+    description: "Stylish urban hotel ideal for business travelers and weekenders.",
+    amenities: ["Sky Bar", "Meeting Rooms", "Spa", "City View Rooms"]
+  },
+  {
+    id: "17",
+    name: "Emerald Bay Resort",
+    location: "Pondicherry, India",
+    city: "Pondicherry",
+    image: "https://via.placeholder.com/300x200?text=Emerald+Bay+Pondicherry",
+    description: "Beachfront hotel with French colonial architecture and calm waters.",
+    amenities: ["Bicycle Tours", "French Bakery", "Ocean View Rooms"]
+  },
+  {
+    id: "18",
+    name: "Capital Crown",
+    location: "New Delhi, India",
+    city: "Delhi",
+    image: "https://via.placeholder.com/300x200?text=Capital+Crown+Delhi",
+    description: "Sophisticated hotel in Delhi’s diplomatic and cultural zone.",
+    amenities: ["Fine Dining", "Metro Access", "Business Lounge"]
+  },
+  {
+    id: "19",
+    name: "Aurora Cliff Resort",
+    location: "Munnar, Kerala, India",
+    city: "Munnar",
+    image: "https://via.placeholder.com/300x200?text=Aurora+Cliff+Munnar",
+    description: "Tea garden resort with panoramic hill views and peaceful vibes.",
+    amenities: ["Tea Tasting", "Hilltop Café", "Balcony Rooms"]
+  },
+  {
+    id: "20",
+    name: "Silken Sands Inn",
+    location: "Puri, Odisha, India",
+    city: "Puri",
+    image: "https://via.placeholder.com/300x200?text=Silken+Sands+Puri",
+    description: "Beach resort just minutes from the Jagannath Temple and golden beaches.",
+    amenities: ["Beach Walks", "Temple Tours", "Sea View Restaurant"]
+  }
+],
+
   upcomingProjects: [
     {
       id: "saavi-gurgaon",
