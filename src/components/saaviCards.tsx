@@ -19,9 +19,9 @@ const SaaviCards = () => {
   // Card data with titles, descriptions, links, and images
   const cards = [
     {
-      title: "Join the Saavi Family",
+      title: "Join the Shrpl Family",
       description: "Partner with us to bring luxury hospitality to new heights.",
-      link: "Partner with Saavi",
+      link: "Partner with Shrpl",
       image: Card1,
     },
     {

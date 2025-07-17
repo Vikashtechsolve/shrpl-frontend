@@ -7,10 +7,11 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { content } from "@/lib/content";
-import logo from "../../public/assets/shrpl.jpeg";
+import logo from "../../public/assets/shrpl.png";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 export default function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -33,9 +34,9 @@ export default function Navbar() {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
-        "ngrok-skip-browser-warning": "true",
-      },
-    });
+          "ngrok-skip-browser-warning": "true",
+        },
+      });
     const data = await response.json();
     setHotels(data);
   };
@@ -55,12 +56,12 @@ export default function Navbar() {
             <span>9999575044, 7290006773</span>
             <span className="flex items-center gap-1">
               <FaEnvelope className="text-base" />
-              <span>sales@saavigroups.com</span>
+              <span>hello@shrpl.com</span>
             </span>
           </p>
           <div className="items-center justify-between flex flex-col sm:flex-row gap-4">
             {/* Social Media Icons */}
-            <div className="flex items-center gap-4 sm:gap-6 whitespace-nowrap overflow-x-auto">
+            {/* <div className="flex items-center gap-4 sm:gap-6 whitespace-nowrap overflow-x-auto">
               <a
                 href="https://www.facebook.com/profile.php?id=61565142656404"
                 target="_blank"
@@ -93,7 +94,7 @@ export default function Navbar() {
               >
                 <i className="fab fa-youtube text-base"></i>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -105,14 +106,25 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5 flex items-center gap-2">
             <div className="flex flex-col items-center">
-              <img
+              {/* <img
                 src={logo}
                 alt="Saavi logo"
-                className="w-[130px] h-30 object-cover rounded-md"
-              />
+                className="w-[100px] h-20 object-cover rounded-md"
+              /> */}
+              <h2 style={{
+                color: '#8B2B06',
+                fontSize: '32px',
+                fontWeight: 'bold',
+                textAlign: 'center',
+                textTransform: 'uppercase',
+                letterSpacing: '2px',
+                marginTop: '20px'
+              }}>
+                SHRPL
+              </h2>
             </div>
             <span className="text-sm font-bold text-gray-700 tracking-wide uppercase font-sans">
-              A Comfortable stay
+              {/* A Comfortable stay */}
             </span>
           </Link>
         </div>
@@ -127,7 +139,7 @@ export default function Navbar() {
           </Link>
 
           {/* Our Hotels Dropdown */}
-          <DropdownMenu
+          {/* <DropdownMenu
             open={openDropdown === "hotels"}
             onOpenChange={() => handleDropdownClick("hotels")}
           >
@@ -158,7 +170,7 @@ export default function Navbar() {
                 </DropdownMenuItem>
               ))}
             </DropdownMenuContent>
-          </DropdownMenu>
+          </DropdownMenu> */}
 
           {/* About Us Dropdown */}
           <DropdownMenu
@@ -174,7 +186,7 @@ export default function Navbar() {
                 { name: "Vision & Mission", href: "/about#vision-mission" },
                 { name: "Core Values", href: "/about#values" },
                 { name: "Our Team", href: "/about#team" },
-                { name: "Why Saavi?", href: "/about#why-saavi" },
+                { name: "Why SHRPL?", href: "/about#why-saavi" },
               ].map((item) => (
                 <DropdownMenuItem
                   key={item.name}
@@ -193,12 +205,12 @@ export default function Navbar() {
           </DropdownMenu>
 
           {/* Regular Navigation Links */}
-          <Link
+          {/* <Link
             to="/gallery"
             className="text-sm font-semibold text-gray-900 py-2 pl-4 pr-6 hover:text-primary transition-colors"
           >
             Gallery
-          </Link>
+          </Link> */}
 
           <Link
             to="/promotions"

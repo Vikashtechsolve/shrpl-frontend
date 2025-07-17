@@ -1,5 +1,5 @@
 // import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
-import logo from '../../public/assets/shrpl.jpeg';
+import logo from '../../public/assets/shrpl.png';
 import { Link } from 'react-router-dom';
 
 // export default function Footer() {
@@ -123,12 +123,12 @@ export default function Footer() {
           {/* About Section */}
           <div className="space-y-4">
           <Link to="/" className="flex gap-2">
-               <img src={logo} alt="Saavi Hotels Logo" className="h-10 w-10" />
-               <span className="text-xl font-semibold text-white">Saavi Hotels</span>
+               {/* <img src={logo} alt="Saavi Hotels Logo" className="h-10 w-10" /> */}
+               <span className="text-xl font-semibold text-white">Shrpl Hotels</span>
              </Link>
             {/* <h3 className="text-xl font-semibold">About Us</h3> */}
             <p className="text-gray-400 leading-relaxed">
-            Saavi Hotels and Resorts Private Limited is an emerging hospitality brand in India, founded by Deepak Dangi, a seasoned professional with over 13 years of experience in five-star hospitality. Saavi Hotels is committed to redefining corporate hospitality by offering world-class accommodations, personalized services, and modern amenities designed to meet the needs of business travelers and professionals.</p>
+            Shrpl Hotels and Resorts Private Limited is an emerging hospitality brand in India, founded by Deepak Dangi, a seasoned professional with over 13 years of experience in five-star hospitality. Saavi Hotels is committed to redefining corporate hospitality by offering world-class accommodations, personalized services, and modern amenities designed to meet the needs of business travelers and professionals.</p>
             <Link to='/about#company'>Read more...</Link>
           </div>
 
@@ -198,7 +198,7 @@ export default function Footer() {
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-[#8B2B06]" />
                 <a href="sales@saavigroups.com" className="text-gray-400 hover:text-[#8B2B06] transition-colors">
-                sales@saavigroups.com
+                hello@shrpl.com
                 </a>
               </li>
             </ul>
@@ -209,11 +209,11 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400">
-              © {currentYear} All rights reserved to Saavi Hotels and Resorts Private Limited.
+              © {currentYear} All rights reserved to Shrpl Hotels and Resorts Private Limited.
             </p>
             <div className="flex space-x-6">
             <div className="flex items-center gap-4 sm:gap-8">
-      <a
+      {/* <a
         href="https://www.facebook.com/profile.php?id=61565142656404"
         target="_blank"
         rel="noopener noreferrer"
@@ -244,7 +244,7 @@ export default function Footer() {
         className="hover:text-primary transition-colors text-white"
       >
         <i className="fab fa-youtube text-base"></i>
-      </a>
+      </a> */}
     </div>
             </div>
           </div>

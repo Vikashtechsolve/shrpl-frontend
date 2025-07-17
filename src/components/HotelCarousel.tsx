@@ -116,7 +116,7 @@ export default function HotelCarousel() {
         </CarouselContent>
       ) : (
         <div className="flex justify-center items-center h-full">
-          No hotels found
+        
         </div>
       )}
       <motion.div
