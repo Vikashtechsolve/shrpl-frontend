@@ -232,13 +232,13 @@ export default function Footer() {
             <div className="flex space-x-6">
             <div className="flex items-center gap-4 sm:gap-8">
       {/* <a
-=======
+
               © {currentYear} All rights reserved to Saavi Hotels and Resorts Private Limited.
             </p>
             <div className="flex space-x-6">
             <div className="flex items-center gap-4 sm:gap-8">
       <a
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
         href="https://www.facebook.com/profile.php?id=61565142656404"
         target="_blank"
         rel="noopener noreferrer"
