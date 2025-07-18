@@ -84,8 +84,9 @@ const Gallery = () => {
 
   return (
     <>
+    
       <Helmet>
-        <title>Our Gallery – Explore Saavi Hotels & Resorts</title>
+        <title>Our Gallery – Explore SHRPL Hotels & Resorts</title>
         <meta name="description" content="View stunning photos of Saavi Hotels and Resorts across India. From cozy rooms to scenic locations, discover what makes Saavi a unique stay experience." />
         <meta name="keywords" content="Saavi Hotels Gallery, hotel photos, resort images, Saavi room pictures, hotel gallery India" />
         <meta name="robots" content="index, follow" />

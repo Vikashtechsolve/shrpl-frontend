@@ -78,7 +78,7 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact Saavi Hotel | Get in Touch With Us Today</title>
+        <title>Contact SHRPL Hotel | Get in Touch With Us Today</title>
         <meta name="description" content="Reach out to Saavi Hotel for bookings, inquiries, or support. Call us, email us, or visit our location in the city center." />
         <meta name="keywords" content="Contact Saavi Hotel, hotel contact, hotel phone number, hotel address, customer support, hotel booking help" />
         <meta name="robots" content="index, follow" />

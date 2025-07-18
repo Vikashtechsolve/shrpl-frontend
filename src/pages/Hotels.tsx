@@ -14,19 +14,19 @@ export default function Hotels() {
 
   // Dynamically generate meta title and description based on destination
   const pageTitle = destination
-    ? `Saavi Hotels in ${destination.charAt(0).toUpperCase() + destination.slice(1)} | Luxury & Comfort`
-    : "Saavi Hotels & Resorts | Luxury Stays Across India";
+    ? `SHRPL Hotels in ${destination.charAt(0).toUpperCase() + destination.slice(1)} | Luxury & Comfort`
+    : "SHRPL Hotels & Resorts | Luxury Stays Across India";
 
   const metaDescription = destination
-    ? `Find comfortable and luxurious Saavi Hotels in ${destination.charAt(0).toUpperCase() + destination.slice(1)}. Book your perfect stay with amenities like Free WiFi, Restaurant, Room Service & more.`
-    : "Experience comfort and luxury at Saavi Hotels across Gurugram and Himachal Pradesh. Our properties in Sector 46, Golf Course, Sector 45, Sector 10, Hassan Valley, and Jibhi offer perfect stays.";
+    ? `Find comfortable and luxurious SHRPL Hotels in ${destination.charAt(0).toUpperCase() + destination.slice(1)}. Book your perfect stay with amenities like Free WiFi, Restaurant, Room Service & more.`
+    : "Experience comfort and luxury at SHRPL Hotels across Gurugram and Himachal Pradesh. Our properties in Sector 46, Golf Course, Sector 45, Sector 10, Hassan Valley, and Jibhi offer perfect stays.";
 
   return (
     <>
       <Helmet>
         <title>{pageTitle}</title>
         <meta name="description" content={metaDescription} />
-        <meta name="keywords" content="Saavi Hotels, Gurugram hotels, Himachal Pradesh hotels, luxury hotels, comfortable stay, affordable hotels, Sector 46, Golf Course Road, Sector 45, Sector 10, Hassan Valley, Jibhi, business hotels, leisure stays" />
+        <meta name="keywords" content="SHRPL Hotels, Gurugram hotels, Himachal Pradesh hotels, luxury hotels, comfortable stay, affordable hotels, Sector 46, Golf Course Road, Sector 45, Sector 10, Hassan Valley, Jibhi, business hotels, leisure stays" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Saavi Hotel" />
@@ -42,7 +42,7 @@ export default function Hotels() {
           <>
             {destination === "gurugram" && (
               <>
-                <meta name="keywords" content="Saavi Hotel Sector 46, Saavi Hotel Golf Course, Saavi Hotel Sector 45, Saavi Hotel Sector 10, Gurugram hotels, comfortable stay Gurugram, hotels near Huda City Centre, budget hotels Gurugram" />
+                <meta name="keywords" content="SHRPL Hotel Sector 46, SHRPL Hotel Golf Course, SHRPL Hotel Sector 45, SHRPL Hotel Sector 10, Gurugram hotels, comfortable stay Gurugram, hotels near Huda City Centre, budget hotels Gurugram" />
                 <link rel="alternate" href="https://www.saavihotels.com/saavi-hotel-sector-46" />
                 <link rel="alternate" href="https://www.saavihotels.com/saavi-hotel-golf-course" />
                 <link rel="alternate" href="https://www.saavihotels.com/saavi-hotel-sector-45" />
@@ -51,7 +51,7 @@ export default function Hotels() {
             )}
             {destination === "himachal pradesh" && (
               <>
-                <meta name="keywords" content="Hassan Valley By Saavi, Saavi Hotel Jibhi, Shimla hotels, scenic stay Shimla, Jibhi hotels, nature retreat Himachal Pradesh" />
+                <meta name="keywords" content="Hassan Valley By SHRPL, SHRPL Hotel Jibhi, Shimla hotels, scenic stay Shimla, Jibhi hotels, nature retreat Himachal Pradesh" />
                 <link rel="alternate" href="https://www.saavihotels.com/hassan-valley-by-saavi" />
                 <link rel="alternate" href="https://www.saavihotels.com/saavi-hotel-jibhi" />
               </>
