@@ -8,6 +8,7 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import rajwadaImg from '../../public/assets/Rajwada.jpg'
@@ -19,11 +20,16 @@ import techcitygrantImg from '../../public/assets/techCityGrand.webp'
 import himalayanretreatImg from '../../public/assets/himalayanretreat.jpg'
 import marinagrantImg from '../../public/assets/hotelgrant.webp'
 import greenvalleyImg from '../../public/assets/greenvalleyEcoResort.webp'
+=======
+import { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
 
 export default function HotelCarousel() {
   const carouselRef = useRef<HTMLDivElement>(null);
   const [hotels, setHotels] = useState<any[]>([]);
 
+<<<<<<< HEAD
   useEffect(() => {
     const hardcodedHotels = [
       {
@@ -110,6 +116,36 @@ export default function HotelCarousel() {
     ];
 
     setHotels(hardcodedHotels);
+=======
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     if (carouselRef.current) {
+  //       // Simulate a click on the "next" button to auto-scroll
+  //       const nextButton = carouselRef.current.querySelector(".carousel-next");
+  //       if (nextButton) {
+  //         (nextButton as HTMLElement).click();
+  //       }
+  //     }
+  //   }, 2000); // Change slide every 2 seconds
+
+  //   return () => clearInterval(interval); // Clear interval on unmount
+  // }, []);
+
+  const fetchHotels = async () => {
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/hotels`, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        "ngrok-skip-browser-warning": "true",
+      },
+    });
+    const data = await response.json();
+    setHotels(data);
+  };
+
+  useEffect(() => {
+    fetchHotels();
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
   }, []);
 
   return (
@@ -121,6 +157,7 @@ export default function HotelCarousel() {
       }}
       className="max-w-8xl h-full mx-auto"
     >
+<<<<<<< HEAD
       {hotels.length > 0 ? (
         <CarouselContent>
           {hotels.map((hotel) => (
@@ -178,6 +215,71 @@ export default function HotelCarousel() {
       ) : (
         <div className="flex justify-center items-center h-full">
           <p>Loading hotels...</p>
+=======
+      {hotels?.length > 0 ? (
+      <CarouselContent>
+        {hotels?.map((hotel) => (
+          <CarouselItem
+            key={hotel?.id}
+            className="sm:basis-1/2 h-full md:basis-1/3 lg:basis-1/4"
+          >
+            <motion.div
+              className="p-1"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              <Card className="overflow-hidden group h-150">
+                <CardContent className="p-0">
+                  <div className="relative overflow-hidden">
+                    <motion.img
+                      src={hotel.homeImageUrl[0]}
+                      alt={hotel.name}
+                      className="w-full h-[300px] object-cover"
+                      whileHover={{ scale: 1.1 }}
+                      transition={{ duration: 0.3 }}
+                    />
+                  </div>
+                  <motion.div
+                    className="p-6"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ delay: 0.2 }}
+                  >
+                    <h3 className="text-xl font-semibold mb-2">{hotel.name}</h3>
+                    <p className="text-muted-foreground mb-2">
+                      {hotel.address}
+                    </p>
+                    <p className="text-sm mb-4"
+
+
+                      dangerouslySetInnerHTML={{
+                        __html: hotel.homeDescription,
+                      }}
+                    />
+                    <div className="flex justify-end">
+                      <Link to={`/hotelDesc/${hotel.id}`}>
+                        <motion.div
+                          whileHover={{ scale: 1.05 }}
+                          whileTap={{ scale: 0.95 }}
+                        >
+                          <Button className="text-lg bg-[#8B2B06] hover:bg-[#8B2B06]">
+                            Book Now
+                          </Button>
+                        </motion.div>
+                      </Link>
+                    </div>
+                  </motion.div>
+                </CardContent>
+              </Card>
+            </motion.div>
+          </CarouselItem>
+        ))}
+        </CarouselContent>
+      ) : (
+        <div className="flex justify-center items-center h-full">
+          No hotels found
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
         </div>
       )}
       <motion.div

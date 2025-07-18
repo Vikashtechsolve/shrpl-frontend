@@ -73,7 +73,11 @@ function WhyChooseSaavi() {
         transition={{ duration: 0.6 }}
       >
         <h1 className="text-3xl sm:text-4xl font-serif font-bold mb-2 text-[#8B2B06]">
+<<<<<<< HEAD
           Why Choose Shrpl?
+=======
+          Why Choose Saavi?
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
         </h1>
         <p className="text-base sm:text-lg mb-20 font-serif text-[#8B2B06]">
           Luxurious accommodations, world-class service, and prime locations.

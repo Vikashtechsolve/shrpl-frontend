@@ -4,7 +4,11 @@ const WhyChooseSaavi: React.FC = () => {
   return (
     <div className="min-h-screen py-8">
       <div className="container mx-auto px-4 sm:px-8">
+<<<<<<< HEAD
         <h1 className="text-3xl font-bold text-[#8B2B06] mb-8">Why Choose SPHRL Hotels?</h1>
+=======
+        <h1 className="text-3xl font-bold text-[#8B2B06] mb-8">Why Choose Saavi Hotels?</h1>
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
 
         {/* Why Choose Saavi Cards Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

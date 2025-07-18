@@ -42,12 +42,17 @@ const proprtiesType = [
   {
     propertyType: "Glamping",
     propertyImageUrl:
+<<<<<<< HEAD
       "https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450090.jpeg?k=52f6b8190edb5a9c91528f8e0f875752ce55a6beb35dc62873601e57944990e4&o=",
+=======
+      "https://r-xx.bstatic.com/xdata/images/hotel/263x210/595548591.jpeg?k=01741bc3aef1a5233dd33794dda397083092c0215b153915f27ea489468e57a2&o=",
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
     
   },
   {
     propertyType: "Guest Houses",
     propertyImageUrl:
+<<<<<<< HEAD
       "https://q-xx.bstatic.com/xdata/images/hotel/263x210/595550178.jpeg?k=1db9bffadd03a0f2a9f0a06ba6c7751b16465f2dd251738f229d7a57dca799ef&o=",
      },
   {
@@ -60,6 +65,20 @@ const proprtiesType = [
     propertyType: "B&B",
     propertyImageUrl:
       "https://r-xx.bstatic.com/xdata/images/hotel/263x210/595549020.jpeg?k=f5df2d3dc0000073bef517b0cab9593036f3f1aafa2421df31a6538a8c56b834&o=",
+=======
+      "https://r-xx.bstatic.com/xdata/images/hotel/263x210/595548591.jpeg?k=01741bc3aef1a5233dd33794dda397083092c0215b153915f27ea489468e57a2&o=",
+     },
+  {
+    propertyType: "Glamping",
+    propertyImageUrl:
+      "https://r-xx.bstatic.com/xdata/images/hotel/263x210/595548591.jpeg?k=01741bc3aef1a5233dd33794dda397083092c0215b153915f27ea489468e57a2&o=",
+    
+  },
+  {
+    propertyType: "Glamping",
+    propertyImageUrl:
+      "https://r-xx.bstatic.com/xdata/images/hotel/263x210/595548591.jpeg?k=01741bc3aef1a5233dd33794dda397083092c0215b153915f27ea489468e57a2&o=",
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
     
   },
 ];

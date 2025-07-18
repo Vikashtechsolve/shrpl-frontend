@@ -355,7 +355,11 @@ function OurStory() {
               }}
             >
               {[
+<<<<<<< HEAD
                 { text: "<span class='font-bold text-[#8B2B06]'>SHRPL HOTELS</span>, established in 2019, has been redefining the hospitality industry with luxury and comfort." },
+=======
+                { text: "<span class='font-bold text-[#8B2B06]'>SAAVI HOTELS</span>, established in 2019, has been redefining the hospitality industry with luxury and comfort." },
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
                 { text: "Our journey began with a vision to create world-class accommodations that cater to the diverse needs of our guests." },
                 { text: "We pride ourselves on offering exceptional hospitality, from the moment you step into our lobby to the time you check out." }
               ].map((paragraph, index) => (
@@ -691,7 +695,11 @@ export default function Home() {
         >
           <div className="w-full px-0">
             <h2 className="text-3xl font-serif text-[#8B2B06] z-10 font-bold text-center mb-12 animate-slide-in-top">
+<<<<<<< HEAD
               Experience Shrpl Hospitality
+=======
+              Experience Saavi Hospitality
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
             </h2>
             <div className="w-full">
               <HotelCarousel />
