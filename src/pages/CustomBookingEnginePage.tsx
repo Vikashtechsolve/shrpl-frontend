@@ -348,7 +348,6 @@ const CustomBookingEnginePage: React.FC = () => {
   //   console.log(fetchHotel());
      
   // }, []); // empty dependency = call once when component mounts
-
   
   useEffect(() => {
     setDateRange(() => {
