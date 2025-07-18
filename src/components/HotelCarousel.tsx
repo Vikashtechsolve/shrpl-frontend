@@ -8,7 +8,7 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
+
 import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import rajwadaImg from '../../public/assets/Rajwada.jpg'
@@ -20,16 +20,16 @@ import techcitygrantImg from '../../public/assets/techCityGrand.webp'
 import himalayanretreatImg from '../../public/assets/himalayanretreat.jpg'
 import marinagrantImg from '../../public/assets/hotelgrant.webp'
 import greenvalleyImg from '../../public/assets/greenvalleyEcoResort.webp'
-=======
+
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
 
 export default function HotelCarousel() {
   const carouselRef = useRef<HTMLDivElement>(null);
   const [hotels, setHotels] = useState<any[]>([]);
 
-<<<<<<< HEAD
+
   useEffect(() => {
     const hardcodedHotels = [
       {
@@ -116,7 +116,7 @@ export default function HotelCarousel() {
     ];
 
     setHotels(hardcodedHotels);
-=======
+
   // useEffect(() => {
   //   const interval = setInterval(() => {
   //     if (carouselRef.current) {
@@ -145,7 +145,7 @@ export default function HotelCarousel() {
 
   useEffect(() => {
     fetchHotels();
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
   }, []);
 
   return (
@@ -157,7 +157,7 @@ export default function HotelCarousel() {
       }}
       className="max-w-8xl h-full mx-auto"
     >
-<<<<<<< HEAD
+
       {hotels.length > 0 ? (
         <CarouselContent>
           {hotels.map((hotel) => (
@@ -215,7 +215,7 @@ export default function HotelCarousel() {
       ) : (
         <div className="flex justify-center items-center h-full">
           <p>Loading hotels...</p>
-=======
+
       {hotels?.length > 0 ? (
       <CarouselContent>
         {hotels?.map((hotel) => (
@@ -279,7 +279,6 @@ export default function HotelCarousel() {
       ) : (
         <div className="flex justify-center items-center h-full">
           No hotels found
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
         </div>
       )}
       <motion.div
