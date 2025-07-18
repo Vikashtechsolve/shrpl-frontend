@@ -9,17 +9,14 @@ import {
 import { content } from "@/lib/content";
 <<<<<<< HEAD
 import logo from "../../public/assets/shrpl.png";
-=======
+
 import logo from "../../public/assets/shrpl.jpeg";
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
 export default function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -41,15 +38,15 @@ export default function Navbar() {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
-<<<<<<< HEAD
+
           "ngrok-skip-browser-warning": "true",
         },
       });
-=======
+
         "ngrok-skip-browser-warning": "true",
       },
     });
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
     const data = await response.json();
     setHotels(data);
   };
@@ -69,20 +66,20 @@ export default function Navbar() {
             <span>9999575044, 7290006773</span>
             <span className="flex items-center gap-1">
               <FaEnvelope className="text-base" />
-<<<<<<< HEAD
+
               <span>hello@shrpl.com</span>
-=======
+
               <span>sales@saavigroups.com</span>
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
             </span>
           </p>
           <div className="items-center justify-between flex flex-col sm:flex-row gap-4">
             {/* Social Media Icons */}
-<<<<<<< HEAD
+
             {/* <div className="flex items-center gap-4 sm:gap-6 whitespace-nowrap overflow-x-auto">
-=======
+
             <div className="flex items-center gap-4 sm:gap-6 whitespace-nowrap overflow-x-auto">
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
               <a
                 href="https://www.facebook.com/profile.php?id=61565142656404"
                 target="_blank"
@@ -115,11 +112,11 @@ export default function Navbar() {
               >
                 <i className="fab fa-youtube text-base"></i>
               </a>
-<<<<<<< HEAD
+
             </div> */}
-=======
+
             </div>
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
           </div>
         </div>
       </div>
@@ -131,7 +128,7 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5 flex items-center gap-2">
             <div className="flex flex-col items-center">
-<<<<<<< HEAD
+
               {/* <img
                 src={logo}
                 alt="Saavi logo"
@@ -151,7 +148,7 @@ export default function Navbar() {
             </div>
             <span className="text-sm font-bold text-gray-700 tracking-wide uppercase font-sans">
               {/* A Comfortable stay */}
-=======
+
               <img
                 src={logo}
                 alt="Saavi logo"
@@ -160,7 +157,7 @@ export default function Navbar() {
             </div>
             <span className="text-sm font-bold text-gray-700 tracking-wide uppercase font-sans">
               A Comfortable stay
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
             </span>
           </Link>
         </div>
@@ -175,11 +172,11 @@ export default function Navbar() {
           </Link>
 
           {/* Our Hotels Dropdown */}
-<<<<<<< HEAD
+
           {/* <DropdownMenu
-=======
+
           <DropdownMenu
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
             open={openDropdown === "hotels"}
             onOpenChange={() => handleDropdownClick("hotels")}
           >
@@ -210,11 +207,11 @@ export default function Navbar() {
                 </DropdownMenuItem>
               ))}
             </DropdownMenuContent>
-<<<<<<< HEAD
+
           </DropdownMenu> */}
-=======
+
           </DropdownMenu>
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
 
           {/* About Us Dropdown */}
           <DropdownMenu
@@ -230,11 +227,11 @@ export default function Navbar() {
                 { name: "Vision & Mission", href: "/about#vision-mission" },
                 { name: "Core Values", href: "/about#values" },
                 { name: "Our Team", href: "/about#team" },
-<<<<<<< HEAD
+
                 { name: "Why SHRPL?", href: "/about#why-saavi" },
-=======
+
                 { name: "Why Saavi?", href: "/about#why-saavi" },
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
               ].map((item) => (
                 <DropdownMenuItem
                   key={item.name}
@@ -253,20 +250,20 @@ export default function Navbar() {
           </DropdownMenu>
 
           {/* Regular Navigation Links */}
-<<<<<<< HEAD
+
           {/* <Link
-=======
+
           <Link
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
             to="/gallery"
             className="text-sm font-semibold text-gray-900 py-2 pl-4 pr-6 hover:text-primary transition-colors"
           >
             Gallery
-<<<<<<< HEAD
+
           </Link> */}
-=======
+
           </Link>
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
 
           <Link
             to="/promotions"
@@ -376,11 +373,11 @@ export default function Navbar() {
                   { name: "Vision & Mission", href: "/about#vision-mission" },
                   { name: "Core Values", href: "/about#values" },
                   { name: "Our Team", href: "/about#team" },
-<<<<<<< HEAD
+
                   { name: "Why SHRPL?", href: "/about#why-saavi" },
-=======
+
                   { name: "Why Saavi?", href: "/about#why-saavi" },
->>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
+
                 ].map((item) => (
                   <DropdownMenuItem
                     key={item.name}
