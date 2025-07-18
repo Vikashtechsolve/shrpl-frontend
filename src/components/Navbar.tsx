@@ -320,7 +320,7 @@ export default function Navbar() {
                   { name: "Vision & Mission", href: "/about#vision-mission" },
                   { name: "Core Values", href: "/about#values" },
                   { name: "Our Team", href: "/about#team" },
-                  { name: "Why Saavi?", href: "/about#why-saavi" },
+                  { name: "Why SHRPL?", href: "/about#why-saavi" },
                 ].map((item) => (
                   <DropdownMenuItem
                     key={item.name}

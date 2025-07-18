@@ -286,7 +286,7 @@ export const content = {
   ],
   banqAndEvents: {
 
-    description1: "Our Banquet hall has a video conferencing facility at Saavi hotels, Gurgram. It has a lavish decor and provides a traditional touch with an opulent environment that is ideal for hosting any form of event.",
+    description1: "Our Banquet hall has a video conferencing facility at SHRPL hotels, Gurgram. It has a lavish decor and provides a traditional touch with an opulent environment that is ideal for hosting any form of event.",
     description2: "Host events like receptions, parties, or even business meetings in this elegant hall that comes well-equipped with a projector , A/C, Wi-Fi, and audiovisual system.",
     description3: "Book your stay at one of the best Gurugram hotel near Golf course road during your grand event at our state of the art event venue.",
     images: [
@@ -320,7 +320,7 @@ export const content = {
     {
       name: 'Deepak Dangi',
       role: 'Founder & CEO',
-      description: 'Mr Deepak Dangi completed his education in the field of IT (B.Sc IT) and completed his Post Graduation in Management (MBA). Worked with big brands like Imperial Hotel Delhi, Le Meridien , Metropolitan, Pi hotels etc., Mr. Deepak Dangi emerged as an exceptional amalgamation of IT and hospitality. To His love for geniality and his burning desire to achieve the inevitable success, In 2019 founded the Saavi Events and Entertainment, His experience of 12 years in the industry adds fuel to passion driven approach of Saavi Hotel. Now Saavi Hotels operates five plus hotels in India, this contemporary approach of attention to the corporate stay and Social events is driven by the vast expertise of this charming entrepreneur.',
+      description: 'Mr Deepak Dangi completed his education in the field of IT (B.Sc IT) and completed his Post Graduation in Management (MBA). Worked with big brands like Imperial Hotel Delhi, Le Meridien , Metropolitan, Pi hotels etc., Mr. Deepak Dangi emerged as an exceptional amalgamation of IT and hospitality. To His love for geniality and his burning desire to achieve the inevitable success, In 2019 founded the SHRPL Events and Entertainment, His experience of 12 years in the industry adds fuel to passion driven approach of SHRPL Hotel. Now SHRPL Hotels operates five plus hotels in India, this contemporary approach of attention to the corporate stay and Social events is driven by the vast expertise of this charming entrepreneur.',
       imageSrc: Deepak,
     },
     {
@@ -339,7 +339,7 @@ export const content = {
     {
       name: 'Deepak Redhu',
       role: 'Account Head',
-      description: "Deepak Redhu is a senior executive responsible for managing the financial actions of the company. They are often in charge of tracking cash flow, analyzing strengths/weaknesses in the company’s finances and overseeing all aspects of its financial success. Mr. Redhu completed his bachelor's in accounts management. Worked with big brands like Indusind bank and L&T Finance. His expertise is to Ensure cash flow is appropriate for the organization’s operations and Control and evaluate the organization’s fundraising plans and capital structure. Now using his vast experience for more than 10 years to expedite the potential of SAAVI Hotels.",
+      description: "Deepak Redhu is a senior executive responsible for managing the financial actions of the company. They are often in charge of tracking cash flow, analyzing strengths/weaknesses in the company’s finances and overseeing all aspects of its financial success. Mr. Redhu completed his bachelor's in accounts management. Worked with big brands like Indusind bank and L&T Finance. His expertise is to Ensure cash flow is appropriate for the organization’s operations and Control and evaluate the organization’s fundraising plans and capital structure. Now using his vast experience for more than 10 years to expedite the potential of SHRPL Hotels.",
       imageSrc: DeepakRedhu,
     },
     {
@@ -353,9 +353,9 @@ export const content = {
   terms_and_conditions: [
     {
       title: 'Terms and Conditions',
-      content: `Terms and Conditions for Saavi Hotel
+      content: `Terms and Conditions for SHRPL Hotel
 
-Welcome to Saavi Hotel. By accessing or using our services, including making reservations, checking in, and utilizing hotel facilities, you agree to comply with the following terms and conditions. Please read them carefully.
+Welcome to SHRPL Hotel. By accessing or using our services, including making reservations, checking in, and utilizing hotel facilities, you agree to comply with the following terms and conditions. Please read them carefully.
 
 Reservation Policy
 
@@ -375,14 +375,14 @@ All applicable taxes and service charges will be added to the final bill and may
 Guest Responsibilities
 
 Guests are required to maintain appropriate conduct while on hotel property, adhering to all hotel policies, rules, and regulations.
-Saavi Hotel reserves the right to refuse service to any guest displaying disruptive or illegal behavior, including but not limited to intoxication, noise disturbances, or property damage.
+SHRPL Hotel reserves the right to refuse service to any guest displaying disruptive or illegal behavior, including but not limited to intoxication, noise disturbances, or property damage.
 Privacy and Data Protection
 
-Personal information collected during the reservation process or during the stay will be stored and processed in accordance with applicable privacy laws and Saavi Hotel’s privacy policy.
+Personal information collected during the reservation process or during the stay will be stored and processed in accordance with applicable privacy laws and SHRPL Hotel’s privacy policy.
 The hotel will not disclose any personal data without the consent of the guest, unless required by law or in relation to the provision of services.
 Liability
 
-Saavi Hotel is not liable for any loss, damage, or injury to guests or their property, except in cases of negligence on the part of the hotel.
+SHRPL Hotel is not liable for any loss, damage, or injury to guests or their property, except in cases of negligence on the part of the hotel.
 The hotel does not assume responsibility for personal items left in guest rooms or common areas. Guests are encouraged to use in-room safes or lockers for valuable items.
 Hotel Amenities and Services
 
@@ -390,10 +390,10 @@ Access to certain hotel amenities such as the pool, gym, and restaurant may be s
 The hotel reserves the right to alter or suspend certain services or amenities due to maintenance, local regulations, or unforeseen circumstances.
 Force Majeure
 
-Saavi Hotel shall not be held responsible for failure or delay in the performance of any obligations due to circumstances beyond its reasonable control, including but not limited to natural disasters, pandemics, or governmental restrictions.
+SHRPL Hotel shall not be held responsible for failure or delay in the performance of any obligations due to circumstances beyond its reasonable control, including but not limited to natural disasters, pandemics, or governmental restrictions.
 Amendments to Terms and Conditions
 
-Saavi Hotel reserves the right to update or modify these terms and conditions at any time. All updates will be published on our website and will apply to any bookings or services made thereafter.
+SHRPL Hotel reserves the right to update or modify these terms and conditions at any time. All updates will be published on our website and will apply to any bookings or services made thereafter.
 By proceeding with a reservation or stay, you acknowledge that you have read, understood, and agreed to these terms and conditions. If you have any questions or require further clarification, please contact our guest services team.`
     }
   ],
