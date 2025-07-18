@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import h1 from "../../public/assets/HomeImage33.png"
 
 export default function HotelCarousel() {
   const carouselRef = useRef<HTMLDivElement>(null);
@@ -22,7 +23,7 @@ export default function HotelCarousel() {
         name: "The Marine Pearl",
         location: "Mumbai, Maharashtra, India",
         city: "Mumbai",
-        image: "https://via.placeholder.com/300x200?text=Marine+Pearl+Mumbai",
+        image: h1,
         description: "Luxury seafront hotel with breathtaking views of the Arabian Sea."
       },
       {

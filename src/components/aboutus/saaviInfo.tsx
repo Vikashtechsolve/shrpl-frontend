@@ -19,9 +19,9 @@ const SaaviInfo: React.FC = () => {
               About <span className="text-[#8B2B06]">Our Company</span>
             </h2>
             <p className="text-gray-700">
-              <strong className="text-[#8B2B06]">Saavi Hotels and Resorts Private Limited</strong> is an emerging hospitality
+              <strong className="text-[#8B2B06]">SHRPL Hotels and Resorts Private Limited</strong> is an emerging hospitality
               brand in India, founded by Deepak Dangi, a seasoned professional with over 13 years of
-              experience in five-star hospitality. Saavi Hotels is committed to redefining corporate
+              experience in five-star hospitality. SHRPL Hotels is committed to redefining corporate
               hospitality by offering world-class accommodations, personalized services, and modern
               amenities designed to meet the needs of business travelers and professionals.
             </p>
@@ -30,7 +30,7 @@ const SaaviInfo: React.FC = () => {
       </div>
 
       <div>
-        <h2 className="text-lg font-bold text-red-700 mb-2">Key Features of Saavi Hotels</h2>
+        <h2 className="text-lg font-bold text-red-700 mb-2">Key Features of SHRPL Hotels</h2>
         <ul className="list-disc list-inside text-gray-700 space-y-2">
           <li>
             <strong className="text-[#8B2B06]">Corporate-Focused Stays:</strong> Tailored solutions for
@@ -44,16 +44,16 @@ const SaaviInfo: React.FC = () => {
             relaxation and productivity for guests.
           </li>
           <li>
-            <strong className="text-[#8B2B06]">Strategic Locations:</strong> Saavi Hotels are strategically
+            <strong className="text-[#8B2B06]">Strategic Locations:</strong> SHRPL Hotels are strategically
             located in business hubs and major cities, making them easily
             accessible for corporate clients.
           </li>
           <li>
-            <strong className="text-[#8B2B06]">Sustainability:</strong> Saavi Hotels emphasizes eco-friendly
+            <strong className="text-[#8B2B06]">Sustainability:</strong> SHRPL Hotels emphasizes eco-friendly
             practices, ensuring operations contribute to a greener environment.
           </li>
           <li>
-            <strong className="text-[#8B2B06]">Exceptional Guest Service:</strong> The team at Saavi Hotels
+            <strong className="text-[#8B2B06]">Exceptional Guest Service:</strong> The team at SHRPL Hotels
             is trained to deliver personalized and attentive service, creating
             memorable experiences for every guest.
           </li>
@@ -64,9 +64,9 @@ const SaaviInfo: React.FC = () => {
       <div>
         <h2 className="text-lg font-bold text-red-700 mb-2">Growth and Expansion</h2>
         <p className="text-gray-700">
-          Saavi Hotels is focused on expanding its presence across major cities
+          SHRPL Hotels is focused on expanding its presence across major cities
           in India, with plans to cater to international markets in the future.
-          By combining industry expertise with modern trends, Saavi Hotels aims
+          By combining industry expertise with modern trends, SHRPL Hotels aims
           to set a new standard in the hospitality sector.
         </p>
       </div>
