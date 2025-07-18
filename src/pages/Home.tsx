@@ -552,7 +552,7 @@ export default function Home() {
   return (
     <ParallaxProvider>
       <Helmet>
-        <title>Saavi Hotel | Comfortable, Affordable, and Elegant Stay</title>
+        <title>SHRPL Hotel | Comfortable, Affordable, and Elegant Stay</title>
         <meta name="description" content="Saavi Hotel offers elegant and affordable accommodations with premium amenities. Located in the heart of the city. Book your stay today!" />
         <meta name="keywords" content="Saavi Hotel, luxury hotel, affordable stay, hotel booking, city center hotel, best hotels" />
         <meta name="robots" content="index, follow" />

@@ -10,7 +10,17 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import h1 from "../../public/assets/HomeImage33.png"
+
+import marinepearlImg from "../../public/assets/marinePearl.webp"
+import himalayaImg from "../../public/assets/himalyanretreat.jpg"
+import rajwadaImg from "../../public/assets/rajwadaheritage.webp"
+import gangariverImg from "../../public/assets/gangariver.jpg"
+import techcitygrant from "../../public/assets/techcitygrant.webp"
+import sunbaybeachImg from "../../public/assets/sunBaybeach.jpg"
+import  snowpineImg  from "../../public/assets/snowpinechalet.gif"
+import greenvalleyresortImg from "../../public/assets/greenvalley.webp"
+import lakeviewImg from "../../public/assets/lakeviewpalace.jpg"
+import marinagrantImg from  "../../public/assets/marinagrant.jpg"
 
 export default function HotelCarousel() {
   const carouselRef = useRef<HTMLDivElement>(null);
@@ -23,7 +33,7 @@ export default function HotelCarousel() {
         name: "The Marine Pearl",
         location: "Mumbai, Maharashtra, India",
         city: "Mumbai",
-        image: h1,
+        image: marinepearlImg,
         description: "Luxury seafront hotel with breathtaking views of the Arabian Sea."
       },
       {
@@ -31,7 +41,7 @@ export default function HotelCarousel() {
         name: "Rajwada Heritage Palace",
         location: "Jaipur, Rajasthan, India",
         city: "Jaipur",
-        image: "https://via.placeholder.com/300x200?text=Rajwada+Palace+Jaipur",
+        image: rajwadaImg,
         description: "Experience royal comfort in this heritage palace turned boutique hotel."
       },
       {
@@ -39,7 +49,7 @@ export default function HotelCarousel() {
         name: "Himalayan Retreat Resort",
         location: "Manali, Himachal Pradesh, India",
         city: "Manali",
-        image: "https://via.placeholder.com/300x200?text=Himalayan+Retreat+Manali",
+        image: himalayaImg,
         description: "Tranquil mountain retreat with breathtaking valley views and cozy cabins."
       },
       {
@@ -47,7 +57,7 @@ export default function HotelCarousel() {
         name: "TechCity Grand",
         location: "Bangalore, Karnataka, India",
         city: "Bangalore",
-        image: "https://via.placeholder.com/300x200?text=TechCity+Grand+Bangalore",
+        image: techcitygrant,
         description: "Modern business hotel located in the heart of India’s Silicon Valley."
       },
       {
@@ -55,7 +65,7 @@ export default function HotelCarousel() {
         name: "Ganga River Retreat",
         location: "Rishikesh, Uttarakhand, India",
         city: "Rishikesh",
-        image: "https://via.placeholder.com/300x200?text=Ganga+Retreat+Rishikesh",
+        image: gangariverImg,
         description: "Spiritual riverside stay with yoga, meditation, and river views."
       },
       {
@@ -63,7 +73,7 @@ export default function HotelCarousel() {
         name: "SunBay Beach Resort",
         location: "Goa, India",
         city: "Goa",
-        image: "https://via.placeholder.com/300x200?text=SunBay+Beach+Goa",
+        image: sunbaybeachImg,
         description: "Tropical resort with private beach access and vibrant nightlife."
       },
       {
@@ -71,7 +81,7 @@ export default function HotelCarousel() {
         name: "Snowpine Chalet",
         location: "Gulmarg, Jammu & Kashmir, India",
         city: "Gulmarg",
-        image: "https://via.placeholder.com/300x200?text=Snowpine+Chalet+Gulmarg",
+        image: snowpineImg ,
         description: "Ski-in/ski-out hotel with views of snow-capped peaks and pine forests."
       },
       {
@@ -79,7 +89,7 @@ export default function HotelCarousel() {
         name: "Green Valley Eco Resort",
         location: "Wayanad, Kerala, India",
         city: "Wayanad",
-        image: "https://via.placeholder.com/300x200?text=Green+Valley+Wayanad",
+        image: greenvalleyresortImg,
         description: "Sustainable eco-resort in Kerala’s lush green landscapes."
       },
       {
@@ -87,7 +97,7 @@ export default function HotelCarousel() {
         name: "The Marina Grand",
         location: "Chennai, Tamil Nadu, India",
         city: "Chennai",
-        image: "https://via.placeholder.com/300x200?text=Marina+Grand+Chennai",
+        image: marinagrantImg,
         description: "Elegant coastal hotel offering comfort, cuisine, and class."
       },
       {
@@ -95,7 +105,7 @@ export default function HotelCarousel() {
         name: "Lakeview Palace",
         location: "Udaipur, Rajasthan, India",
         city: "Udaipur",
-        image: "https://via.placeholder.com/300x200?text=Lakeview+Palace+Udaipur",
+        image: lakeviewImg,
         description: "Lakeside heritage hotel with views of City Palace and Pichola Lake."
       }
     ];
