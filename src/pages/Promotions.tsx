@@ -13,19 +13,31 @@ export default function Promotions() {
           {[
             {
               title: "Summer Escape",
+<<<<<<< HEAD
+              description: "Experience the ultimate getaway at SHRPL Hotels, where cozy accommodations, serene surroundings, and refreshing amenities come together to help you beat the summer heat. Unwind in style, enjoy delicious cuisine, and create cherished memories in a tranquil setting.",
+=======
               description: "Experience the ultimate getaway at Saavi Hotels, where cozy accommodations, serene surroundings, and refreshing amenities come together to help you beat the summer heat. Unwind in style, enjoy delicious cuisine, and create cherished memories in a tranquil setting.",
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
               validUntil: "Feburary 14, 2025",
               image: Chill
             },
             {
               title: "Weekend Getaway",
+<<<<<<< HEAD
+              description: "Escape the hustle and bustle with SHRPL Hotels, the perfect destination for a relaxing weekend. Enjoy cozy stays, scenic views, and memorable experiences that rejuvenate your mind and soul.",
+=======
               description: "Escape the hustle and bustle with Saavi Hotels, the perfect destination for a relaxing weekend. Enjoy cozy stays, scenic views, and memorable experiences that rejuvenate your mind and soul.",
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
               validUntil: "Feburary 14, 2025",
               image: bonfireImage
             },
             {
               title: "Special Offer",
+<<<<<<< HEAD
+              description: "Take advantage of exclusive discounts and packages at SHRPL Hotels, offering exceptional value for a luxurious stay. Don’t miss the chance to experience comfort, relaxation, and memorable moments at an unbeatable price.",
+=======
               description: "Take advantage of exclusive discounts and packages at Saavi Hotels, offering exceptional value for a luxurious stay. Don’t miss the chance to experience comfort, relaxation, and memorable moments at an unbeatable price.",
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
               validUntil: "Feburary 14, 2025",
               image: "https://media.istockphoto.com/id/940891760/vector/discount-20-background-with-brush-strokes.jpg?s=612x612&w=0&k=20&c=9u0ar0h2zbCB9KM1OCPCZC96GRHjm1ME3bS-fn7Y43U="
             }

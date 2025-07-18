@@ -35,6 +35,17 @@ const ValuesAndMissionPage: React.FC = () => {
             <p className="text-gray-700 mb-4">
               Our Vision is to achieve monumental success in the service industry on a global stage, to leave a legacy of
               excellence in the service industry. “To enhance the lives of our customers by creating and enabling unsurpassed
+<<<<<<< HEAD
+              vacation and leisure experiences.” Right from the hotel room to the services provided by SHRPL Hotels are of premium
+              quality.
+            </p>
+            <p className="text-gray-700 mb-4">
+              SHRPL Hotels, as a company, started the venture with a vision to be the best in the world when it comes to hotels or
+              resort chains and we are thriving in it.
+            </p>
+            <p className="text-gray-700 mb-4">
+              SHRPL Hotels is India’s fastest-growing chain of Hotels. Our core values make us who we are. As we change and grow, the
+=======
               vacation and leisure experiences.” Right from the hotel room to the services provided by Saavi Hotels are of premium
               quality.
             </p>
@@ -44,6 +55,7 @@ const ValuesAndMissionPage: React.FC = () => {
             </p>
             <p className="text-gray-700 mb-4">
               Saavi Hotels is India’s fastest-growing chain of Hotels. Our core values make us who we are. As we change and grow, the
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
               beliefs that are most important to us stay the same:
             </p>
 
@@ -56,7 +68,11 @@ const ValuesAndMissionPage: React.FC = () => {
             </ul>
 
             <p className="text-gray-700 mb-4">
+<<<<<<< HEAD
+              Being part of SHRPL Hotels is being a part of an urban-thriving culture. We pursue excellence. Our dedication to the
+=======
               Being part of Saavi Hotels is being a part of an urban-thriving culture. We pursue excellence. Our dedication to the
+>>>>>>> 08f649968ce908f02510b5a40f37dd58cd92e9ec
               customer shows in everything we do. We take pride in the details every day, in every destination nationwide.
             </p>
             <p className="text-gray-700 mb-4">
