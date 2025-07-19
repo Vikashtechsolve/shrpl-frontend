@@ -140,42 +140,42 @@ const hotels = [
 ];
 
 const CityHotelList = () => {
-   const { city } = useParams();
+  const { city } = useParams();
+
   return (
-    <div className="w-full grid grid-cols-2 my-12 gap-12 px-12">
+    <div className="w-full grid grid-cols-1 md:grid-cols-2 my-8 gap-8 px-4 md:px-12">
       {hotels.map((val, index) => (
         <div
           key={index}
-          className=" w-full border p-6 border-gray-200 flex justify-between rounded-lg "
+          className="w-full border p-4 md:p-6 border-gray-200 flex flex-col md:flex-row justify-between rounded-lg"
         >
-          <div className="h-full w-full flex ">
+          <div className="w-full md:w-[70%] flex flex-col md:flex-row">
             <div
-              className="h-full w-[30%] rounded-lg overflow-hidden bg-red-500"
+              className="w-full md:w-[30%] h-40 md:h-auto rounded-lg overflow-hidden bg-gray-300"
               style={{
                 backgroundImage: `url(${val.hotelImage})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
             />
-
-            <div className="ml-4">
-              <h2 className="text-2xl font-bold ">{val.hotelName}</h2>
-              <p className="mb-4 text-gray-600 leading-relaxed whitespace-pre-line">{city}</p>
-              <p>{val.desc}</p>
+            <div className="mt-4 md:mt-0 md:ml-4">
+              <h2 className="text-xl font-bold">{val.hotelName}</h2>
+              <p className="text-gray-600">{city}</p>
+              <p className="mt-2">{val.desc}</p>
             </div>
           </div>
-          <div className=" flex flex-col">
-            <div className="flex">
-                <div className="flex justify-center items-center gap-2">
-                    <p className="text-xs text-nowrap">{val.numReviews} reviews</p>
-                    <p className="text-red-700 flex gap-2 justify-center items-center p-2 rounded-lg">
-                        <FaStar className="border-white text-l" />
-                        {val.rating}</p>
-                </div>
+
+          <div className="mt-4 md:mt-0 flex flex-col justify-between items-start md:items-end md:w-[30%]">
+            <div className="flex gap-2 items-center text-sm mb-2">
+              <p>{val.numReviews} reviews</p>
+              <p className="flex items-center text-red-700 font-medium">
+                <FaStar className="mr-1" />
+                {val.rating}
+              </p>
             </div>
-            <div className="w-full bg-red-700 cursor-pointer hover:bg-red-800 text-nowrap text-white font-semibold py-3 px-6 rounded-lg transition duration-200">
-                <p>Show prices</p>
-            </div>
+            <button className="w-full md:w-auto bg-red-700 hover:bg-red-800 text-white font-semibold py-2 px-4 rounded-lg transition duration-200">
+              Show prices
+            </button>
           </div>
         </div>
       ))}
